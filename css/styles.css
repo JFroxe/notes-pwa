@@ -1,10 +1,19 @@
 body {
         font-family: sans-serif;
+        background-color: #f0f0f0;
     }
+
     #todo-list {
         list-style: none;
         padding: 0;
     }
+
+    #todo-list li {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
     .completed {
         text-decoration: line-through;
+        color: #888;
     }
